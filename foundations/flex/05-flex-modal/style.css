@@ -50,6 +50,31 @@ body {
   padding: 0;
 }
 
+.modal {
+  display: flex;
+  padding: 18px 12px;
+  gap: 12px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.header-text-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.text {
+  margin-bottom: 12px;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
